@@ -12,8 +12,8 @@ fi
 echo "Uploading file..."
 upload_response=$(curl -s -X POST "$DISCOURSE_URL/uploads.json" \
   -H "Content-Type: multipart/form-data" \
-  -H "Api-Key: $API_KEY" \
-  -H "Api-Username: $API_USERNAME" \
+  -H "Api-Key: $DISCOURSE_API_KEY" \
+  -H "Api-Username: $DISCOURSE_API_USERNAME" \
   -F "file=@$FILE_PATH;type=application/pdf" \
   -F "type=composer")
 
@@ -38,13 +38,13 @@ CONTENT="$CONTENT\n\n[Download todays report in PDF format]($short_url)"
 echo "Creating new topic..."
 post_response=$(curl -s -X POST "$DISCOURSE_URL/posts.json" \
   -H "Content-Type: application/json" \
-  -H "Api-Key: $API_KEY" \
-  -H "Api-Username: $API_USERNAME" \
+  -H "Api-Key: $DISCOURSE_API_KEY" \
+  -H "Api-Username: $DISCOURSE_API_USERNAME" \
   -d @- <<EOF
 {
-  "title": "$TITLE",
+  "title": "$DISCOURSE_POST_TITLE",
   "raw": "$CONTENT",
-  "category": $CATEGORY_ID
+  "category": $DISCOURSE_CATEGORY_ID
 }
 EOF
 )
