@@ -1,0 +1,7 @@
+local/build-temp/*.md
+local/build-temp/*.yml
+
+local/build-output/*.md
+local/build-output/*.pdf
+
+StakeholderJoplin/*
