@@ -1,5 +1,37 @@
 #!/bin/bash
 
+
+echo "Obtaining discourse api key..."
+
+bw logout
+
+####################################
+## Step 0: Set to use tsys server
+####################################
+bw config server $BITWARDEN_SERVER_URL
+
+####################################
+## Step 1: login to bitwarden
+####################################
+
+# From: https://bitwarden.com/help/cli/#using-an-api-key
+
+### Set apikey environment varaible
+
+source $BITWARDEN_CREDS
+
+### Login to vault using apikey...
+
+bw login --apikey $BW_CLIENTID $BW_CLIENTSECRET
+
+### Step 1.1: unlock / save session id 
+
+export BW_SESSION="$(bw unlock --passwordenv TSYS_BW_PASSWORD_REACHABLECEO --raw)"
+
+### Step 2: retrive a value into an environment variable
+
+export DISCOURSE_APIKEY="$(bw get password APIKEY-discourse)"
+
 echo "Posting Stakeholder Report..."
 
 # Check if the file exists
