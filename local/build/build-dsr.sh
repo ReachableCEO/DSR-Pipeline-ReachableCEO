@@ -26,8 +26,6 @@ source "../DSRVariables.env"
 
 export MO_PATH="bash ../../vendor/git.knownelement.com/ExternalVendorCode/mo/mo"
 
-export StakeholderOutputMarkdownInputFile="$1"
-
 echo "Cleaning up from previous runs..."
 
 rm $BUILDYAML_STAKEHOLDER_OUTPUT || true
