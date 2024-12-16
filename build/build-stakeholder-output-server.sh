@@ -7,8 +7,6 @@ $MO_PATH $YamlInputTemplateFileStakeholderOutput > $BUILDYAML_STAKEHOLDER_OUTPUT
 
 echo "Creating stakeholder report..."
 
-export StakeholderOutputMarkdownInputFile="../../StakeholderJoplin/@DailyStakeholderReports/PostedToDiscourse/DSR-12-10-2024.md"
-
 cd "$(dirname $StakeholderOutputMarkdownInputFile)"
 
 pandoc \
