@@ -1,0 +1,12 @@
+title: ReachableCEO 2025 Plan
+titlepage: true
+toc: true
+toc-own-page: true
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "Charles N Wyble"
+footer-center: "Tenacity. Velocity. Focus."
+page-background: "./background5.pdf"
+titlepage-logo: "D:/tsys/@ReachableCEO/ReachableCEO.png"
+urlcolor: blue
