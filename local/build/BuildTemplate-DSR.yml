@@ -1,7 +1,6 @@
-title: "{{ReportAuthor}} Daily Stakeholder Report : \today"
+title: "Daily Stakeholder Report for {{ReportAuthor}}"
 titlepage: true
 titlepage-logo: "{{CandidateLogo}}"
-date: \today
 header-left: "\\hspace{1cm}"
 header-center: "\\leftmark"
 header-right: "Page \\thepage"
