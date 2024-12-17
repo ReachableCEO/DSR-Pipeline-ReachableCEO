@@ -1,5 +1,7 @@
 title: "Daily Stakeholder Report for {{ReportAuthor}}"
 titlepage: true
+toc: true
+toc-own-page: true
 titlepage-logo: "{{CandidateLogo}}"
 header-left: "\\hspace{1cm}"
 header-center: "\\leftmark"
