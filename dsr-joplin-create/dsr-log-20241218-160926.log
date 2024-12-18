@@ -1,0 +1,1071 @@
+[INFO] Sourcing environment variables from ../DSRVariables.env.
+[INFO] Environment variables sourced successfully.
+[INFO] Required variables are set.
+[INFO] Script execution started.
+[INFO] Starting the note cloning process.
+[INFO] Current date retrieved: 2024-12-18.
+[INFO] Fetching original note by title: DSR-Template.
+[DEBUG] Consolidated note JSON: [
+  {
+    "id": "8cb08d22fd9f433dbaaa15f75a79bd22",
+    "parent_id": "fac97aabf37b4595a95165db9678b057",
+    "title": "Milestones ",
+    "deleted_time": 0
+  },
+  {
+    "id": "416d6393e24842c0bb8993165ed832a0",
+    "parent_id": "fac97aabf37b4595a95165db9678b057",
+    "title": "PFV Hypervisor host requirement ",
+    "deleted_time": 0
+  },
+  {
+    "id": "cb1b7b0fa4b44d50b6e5fe0b65cbb50c",
+    "parent_id": "e6855c53438a4062b69d6507c7ec12df",
+    "title": "99-usb-serial.rules",
+    "deleted_time": 0
+  },
+  {
+    "id": "b008f5ce3c47425bb028efe8b91ca736",
+    "parent_id": "e6855c53438a4062b69d6507c7ec12df",
+    "title": "nitrokey-reset",
+    "deleted_time": 0
+  },
+  {
+    "id": "deb9788e59a14ab4a9fcfcc08b0a359a",
+    "parent_id": "c43dd51ac3bf499589022cb3243362fa",
+    "title": "RackRental Todo List",
+    "deleted_time": 0
+  },
+  {
+    "id": "0c871b112b414b0a927507b9d884e373",
+    "parent_id": "c43dd51ac3bf499589022cb3243362fa",
+    "title": "Auto Provisoning",
+    "deleted_time": 0
+  },
+  {
+    "id": "0f85a3ab8df3421d8146cc414a58b438",
+    "parent_id": "c43dd51ac3bf499589022cb3243362fa",
+    "title": "Network simulation",
+    "deleted_time": 0
+  },
+  {
+    "id": "2cced3935b5d4fba8952b4bed512a8c1",
+    "parent_id": "c43dd51ac3bf499589022cb3243362fa",
+    "title": "Power",
+    "deleted_time": 0
+  },
+  {
+    "id": "213bdb72e2964fd98beb71d338049be8",
+    "parent_id": "d00665f4c6a14820ac49c2d44cf1cad5",
+    "title": "network-plan",
+    "deleted_time": 0
+  },
+  {
+    "id": "413297b0899343e9baaddb03730ee7e4",
+    "parent_id": "94b5a1674ba8475ca7584470b75cd079",
+    "title": "network-plan",
+    "deleted_time": 0
+  },
+  {
+    "id": "305c96f3bfa741d3893d2420907fe2b1",
+    "parent_id": "cdd16483bf5a4bb3896e55af345ef4c9",
+    "title": "Pitch to talent - pre fundraise",
+    "deleted_time": 0
+  },
+  {
+    "id": "12c34c0fee2a401cac0bfc45e6d30796",
+    "parent_id": "cdd16483bf5a4bb3896e55af345ef4c9",
+    "title": "RWSCP Fund Names and descriptions",
+    "deleted_time": 0
+  },
+  {
+    "id": "b529c2ca798241bd9eadd1a217fa82fb",
+    "parent_id": "39f2c4c21f134362aa4f1964cf1186ef",
+    "title": "Business Sales And Leadership Resources",
+    "deleted_time": 0
+  },
+  {
+    "id": "b29be919e1d64a28955725a43a9370d3",
+    "parent_id": "79ea8b5359c945b4ac6ab755af3cf765",
+    "title": "UPS Config",
+    "deleted_time": 0
+  },
+  {
+    "id": "21691f0a7ae64633b08b7b2f41489a14",
+    "parent_id": "88bd1eea45fa486b84b5d8c77d00ee81",
+    "title": "TSYS Shop Safety Manual",
+    "deleted_time": 0
+  },
+  {
+    "id": "cc760fb1fa7346e989bc114ba8b42e68",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "HowTSYSOrganizesResearch",
+    "deleted_time": 0
+  },
+  {
+    "id": "254e568304534780bf88e7b17ccee92a",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "StartingLineProductions Inventory",
+    "deleted_time": 0
+  },
+  {
+    "id": "5d8e8af9da94490b8d289ea94cf3412b",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "ShopManualDraft2",
+    "deleted_time": 0
+  },
+  {
+    "id": "dbb34f648044479daeddc3091e1bdba5",
+    "parent_id": "fac97aabf37b4595a95165db9678b057",
+    "title": "Power",
+    "deleted_time": 0
+  },
+  {
+    "id": "864c58500f63428b95e94a714cd23740",
+    "parent_id": "fac97aabf37b4595a95165db9678b057",
+    "title": "Network simulation",
+    "deleted_time": 0
+  },
+  {
+    "id": "3521ae9d39b940b4ab2560b3783b92eb",
+    "parent_id": "fac97aabf37b4595a95165db9678b057",
+    "title": "Auto Provisoning",
+    "deleted_time": 0
+  },
+  {
+    "id": "4d147c19f39f477f986e3b4ecf9a0339",
+    "parent_id": "c07a64779840492da098f0ba16f40519",
+    "title": "StarlinkTalkingPoints",
+    "deleted_time": 0
+  },
+  {
+    "id": "bcab77e9b1244614a0a8777724a2f735",
+    "parent_id": "08442c575dc24371ad4374b62c9c844d",
+    "title": "Input files",
+    "deleted_time": 0
+  },
+  {
+    "id": "70fbda4aee124fc3abfba9f1c39267f2",
+    "parent_id": "fc6c1926d45d41528d190452d27da1b1",
+    "title": "RTR Intro",
+    "deleted_time": 0
+  },
+  {
+    "id": "50b9531aef834035a52c9cb3b9bf9471",
+    "parent_id": "08442c575dc24371ad4374b62c9c844d",
+    "title": "Output files",
+    "deleted_time": 0
+  },
+  {
+    "id": "64a0904d80074d76bf1a360d616dd75a",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "Food As Function",
+    "deleted_time": 0
+  },
+  {
+    "id": "8ba5ac2441be4e8487f428d9c67ecbd8",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "Personality",
+    "deleted_time": 0
+  },
+  {
+    "id": "891eaa99c32d43818a016158db529957",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "Routine General Capture",
+    "deleted_time": 0
+  },
+  {
+    "id": "8c8cf21e06b54fce8536a70b4a011b29",
+    "parent_id": "710b92f2cc304d559d4bdf04fe625d72",
+    "title": "Sling bag",
+    "deleted_time": 0
+  },
+  {
+    "id": "231e05f354c14e6891f2d36d518daf30",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "From the desk of the @ReachableCEO: Daily time allocation",
+    "deleted_time": 0
+  },
+  {
+    "id": "78c712619df24eb6901dcbf1408f8ebd",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "From the desk of the @ReachableCEO Weekly and monthly routine",
+    "deleted_time": 0
+  },
+  {
+    "id": "6ca53899052f48cbb011715ec4197eaf",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "From the desk of the @ReachableCEO Daily Routine",
+    "deleted_time": 0
+  },
+  {
+    "id": "b7d7d08bdc0c4148b2e62c60e515bc26",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "From the desk of the @ReachableCEO Routine is key",
+    "deleted_time": 0
+  },
+  {
+    "id": "575554eb364848d3a08816aee1e183cc",
+    "parent_id": "150d000efda9479b872a7ef8f7f61f78",
+    "title": "Fitness",
+    "deleted_time": 0
+  },
+  {
+    "id": "b75c51ec1a0547478d045b69f858e2e9",
+    "parent_id": "08442c575dc24371ad4374b62c9c844d",
+    "title": "Current Resume",
+    "deleted_time": 0
+  },
+  {
+    "id": "4e71c61562c4410389edafbdc2dba17c",
+    "parent_id": "08442c575dc24371ad4374b62c9c844d",
+    "title": "Legacy Resumes",
+    "deleted_time": 0
+  },
+  {
+    "id": "19d06b935f7d48fe8323e3d3f6e921ac",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "Subopi hardware docs",
+    "deleted_time": 0
+  },
+  {
+    "id": "d00b37c0d3ab4ed69290e559e86e1396",
+    "parent_id": "88bd1eea45fa486b84b5d8c77d00ee81",
+    "title": "ShopManualDaft",
+    "deleted_time": 0
+  },
+  {
+    "id": "f2b575a227674d5692d20851286c4eeb",
+    "parent_id": "88bd1eea45fa486b84b5d8c77d00ee81",
+    "title": "StartingLineProductions Inventory",
+    "deleted_time": 0
+  },
+  {
+    "id": "3260aeefdbf8458ba210e2ae4e41e6f5",
+    "parent_id": "88bd1eea45fa486b84b5d8c77d00ee81",
+    "title": "Bizops Todo",
+    "deleted_time": 0
+  },
+  {
+    "id": "cbe84d1dc949423db310192ef9d5b712",
+    "parent_id": "39f2c4c21f134362aa4f1964cf1186ef",
+    "title": "2-BusinessSalesAndLeadership",
+    "deleted_time": 0
+  },
+  {
+    "id": "7de8443b1b6847d7ac94bb809c39ce35",
+    "parent_id": "39f2c4c21f134362aa4f1964cf1186ef",
+    "title": "BusinessSalesAndLeadership",
+    "deleted_time": 0
+  },
+  {
+    "id": "4fb7d12e6a354bde88e8aa798ee81aeb",
+    "parent_id": "39f2c4c21f134362aa4f1964cf1186ef",
+    "title": "Business Sales And Leadership Resources",
+    "deleted_time": 0
+  },
+  {
+    "id": "735c5d1429484b789adcf266b33ceeba",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "TSYS Shop Manual",
+    "deleted_time": 0
+  },
+  {
+    "id": "f90a7f4b51324ef6b4f11cac8852f686",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "HowTSYSOrganizesResearch",
+    "deleted_time": 0
+  },
+  {
+    "id": "17860a198e74484bad3fcf1ee1768d6f",
+    "parent_id": "e2f7c442d41c4257988e4337105fb84c",
+    "title": "RandTTodo",
+    "deleted_time": 0
+  },
+  {
+    "id": "d23540c2dfa849ad87f5334ed2cfeb3f",
+    "parent_id": "cdd16483bf5a4bb3896e55af345ef4c9",
+    "title": "FundNames",
+    "deleted_time": 0
+  },
+  {
+    "id": "f415ca51a9f84b88b0a3b8c7287e1897",
+    "parent_id": "cdd16483bf5a4bb3896e55af345ef4c9",
+    "title": "CorePitchOutline-PreFunding",
+    "deleted_time": 0
+  },
+  {
+    "id": "7d0b217878a14e45822e95a8a6636df1",
+    "parent_id": "cdd16483bf5a4bb3896e55af345ef4c9",
+    "title": "RWSCP Fund Names and descriptions",
+    "deleted_time": 0
+  },
+  {
+    "id": "d315d9c030534f5494d0c35e40e26999",
+    "parent_id": "cdd16483bf5a4bb3896e55af345ef4c9",
+    "title": "Pitch to talent - pre fundraise",
+    "deleted_time": 0
+  },
+  {
+    "id": "385648eeff784bfa95d001e4fe4182dd",
+    "parent_id": "08442c575dc24371ad4374b62c9c844d",
+    "title": "Ancient Legacy Resumes",
+    "deleted_time": 0
+  },
+  {
+    "id": "a4d62a27bfcf4ab3997e4ce7b81aaa81",
+    "parent_id": "c07a64779840492da098f0ba16f40519",
+    "title": "2-Brand List",
+    "deleted_time": 0
+  },
+  {
+    "id": "c21aef5b6616485e9a8f7b5a2639acd5",
+    "parent_id": "c07a64779840492da098f0ba16f40519",
+    "title": "2-Brand Skeleton",
+    "deleted_time": 0
+  },
+  {
+    "id": "82427a77158844edb0f049c8f58fc8b3",
+    "parent_id": "c07a64779840492da098f0ba16f40519",
+    "title": "Brand Skeleton",
+    "deleted_time": 0
+  },
+  {
+    "id": "9c6c09a1354945f5b2151ead7b3589a3",
+    "parent_id": "c07a64779840492da098f0ba16f40519",
+    "title": "Brand List",
+    "deleted_time": 0
+  },
+  {
+    "id": "481ed18f422541039a4e6be34008ffaf",
+    "parent_id": "79ea8b5359c945b4ac6ab755af3cf765",
+    "title": "TSYS Technical Operations Todo",
+    "deleted_time": 0
+  },
+  {
+    "id": "c480c323bf834655acc945021602989c",
+    "parent_id": "79ea8b5359c945b4ac6ab755af3cf765",
+    "title": "BizAppsList",
+    "deleted_time": 0
+  },
+  {
+    "id": "cdb7b6eb4f154cf6b69f7f01f62578d3",
+    "parent_id": "b49896e9da634596a070e8b84bcbd660",
+    "title": "FundNames",
+    "deleted_time": 0
+  },
+  {
+    "id": "84469df05c2d4143bb5f8b97aee01053",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "From the desk of the CTO - Daily Driver (workstation) (ultix-actual)",
+    "deleted_time": 0
+  },
+  {
+    "id": "0ebeec97f1d04f72ab1919bff85419f5",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "From the desk of the CTO - Daily driver client (laptop) (ultix-control)",
+    "deleted_time": 0
+  },
+  {
+    "id": "c9c6ecfad9974f1e80f34ff938b05180",
+    "parent_id": "c07a64779840492da098f0ba16f40519",
+    "title": "Pitch for core team members pre funding",
+    "deleted_time": 0
+  },
+  {
+    "id": "d8e288c1b5214bb69a51124b8041d9a6",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "Docker Setup",
+    "deleted_time": 0
+  },
+  {
+    "id": "c0e339c44f534137a371fc5450405f83",
+    "parent_id": "2ee7133701cf45678be561f12716db01",
+    "title": "Application Tracking",
+    "deleted_time": 0
+  },
+  {
+    "id": "b9d456c20c71479ca8edea3b2f248411",
+    "parent_id": "0b8a48dc4ab442b9818f968e316d5421",
+    "title": "Cloud - Terraform",
+    "deleted_time": 0
+  },
+  {
+    "id": "b67bf223c4824793bcd15273a509aa03",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "From the desk of the CTO - Daily Driver client (ipad/iphone) (ultix-sidekick/mini)",
+    "deleted_time": 0
+  },
+  {
+    "id": "caf8657f4eb84045a25344ffe41f08e4",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "TSYS Applications List - EE Lab",
+    "deleted_time": 0
+  },
+  {
+    "id": "bbc8336921f44faba9a2aa2fe20000b3",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "TSYS Applications List - Garage Lab",
+    "deleted_time": 0
+  },
+  {
+    "id": "b80e55897f364f5e9c7f2249259d81e8",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "TSYS Applications List - Web",
+    "deleted_time": 0
+  },
+  {
+    "id": "cf99a4639cb74f298333b2cd551cdbe6",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Notes on Parasail",
+    "deleted_time": 0
+  },
+  {
+    "id": "e8e56add8179453085233f54c53e651d",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "TSYS Shop Manual",
+    "deleted_time": 0
+  },
+  {
+    "id": "337daab0268c44fd9f2526ee6688cda3",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Organizational Update",
+    "deleted_time": 0
+  },
+  {
+    "id": "844b943f6c7642b68c31a1ba59f4b473",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Misc",
+    "deleted_time": 0
+  },
+  {
+    "id": "8e6fb3887c1149d2a55473f296afec6f",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "socalwifi.net network deployment model",
+    "deleted_time": 0
+  },
+  {
+    "id": "30128df41c4d4d3aa0e9ff4832712655",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Discourse move ",
+    "deleted_time": 0
+  },
+  {
+    "id": "ca8d15270f18477aa6144ca7f561de1a",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Cisco",
+    "deleted_time": 0
+  },
+  {
+    "id": "2b97146793694750b8b93d7d106b074a",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Albatross",
+    "deleted_time": 0
+  },
+  {
+    "id": "289381dc1f0043379bdff0572b4a1a91",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "information on Network Simulation Vendors",
+    "deleted_time": 0
+  },
+  {
+    "id": "aee08598a6224132b163f08254e86427",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Lab Safety",
+    "deleted_time": 0
+  },
+  {
+    "id": "955d6e84bda745bdae2687bb4f412539",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "business Sales and leadership",
+    "deleted_time": 0
+  },
+  {
+    "id": "6c053baa0d64469bbad79be314642ba3",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Charles Scratch notes",
+    "deleted_time": 0
+  },
+  {
+    "id": "05c898e6704045a7951b5ee4ec168757",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report - 10-31-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "166817561a934ae3a91d7c09608e9c50",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-10-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "1bcfc99addbb4ecd9730e090400893a7",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10-30-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "28374a82abe44b15a2d20e9739bbb1c2",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-19-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4582f54bd8c24e8395526b643d289c14",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-15-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4b4b1290dce8409394c0af9975ca8dde",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-12-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "6e62dc6b879d4fd79cf7921dbc7c4fde",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-21-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "79c4e8d7f94144f9b2960bda00a01099",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-25-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "7f70e3a48961496c84bf4469551f0bf1",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-16-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "899fecf5833041259dfc43a434d8b924",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-3-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "977a62c012c24b30800e5ae31dd0407a",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-2-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "9bd9831ba99e493eafccc264ae612339",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-24-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "a03a31b659334f3a981b0314e15117b8",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-11-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "a39b2283127f46d2a7d1db3b5215c614",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-1-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "ab5cbf73885a4f019df248d525500144",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-13-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "acd64ddb838445d2a78f018ef812d5c2",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report - 11-8-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "ad1e80152b054fe9809d4822842c5376",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-9-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "ad5fce18e8584d28b8667f10f83c39cb",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-4-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "b4223bb047d444fa9eebf61c532e843b",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-20-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "c269248cbc65434c8d7fecb8371e307c",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-17-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "c6fb8eac910f470ab5fcf5174832ba8b",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-5-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "c9f5e8d87ad449a787665598bc35d785",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-6-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "e2775a20e4bb4cdea5a6d35ad0054123",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-23-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "e4c10a4900c44736ac20254cfc6a09f3",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-14-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "e5a727f5a54247c6b0f2795db8de017d",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-7-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "e8287241d7d54f76ac4aab152d4848bc",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-22-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "ef269dd636734ab884cec49c75f7b380",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  11-18-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "1ea97d2742824ef8b73623974751b3ee",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10/25/2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "357c4ba959cb45a5b45ff68114a0b5c4",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10-27-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4e18a120b97c4b8aa8c9ecafe048d1c8",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10-29-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "5bfdc4283b7a49e29b164f09027c06f2",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10-28-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "7f2b946f57ed45f38ecad76e5e281e65",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10-23-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "96d4ced32cab43a1ac9f847f236338f7",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report - 10-22-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "f64168a5bc624de9beaf8d68526b4251",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report -  10-24-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "f90b3b6eb44548b696481958c7c12703",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "Daily Stakeholder Report  - 10-21-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "263074c5051745adb1e0770d9c03d27f",
+    "parent_id": "e21767ed98b34310b7561e5dc39d2671",
+    "title": "Resume reviewers",
+    "deleted_time": 0
+  },
+  {
+    "id": "462fe29b292347269e5a8c671ca8970c",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-11-28-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "58c187d28c9b4ff19b8526430a1936b8",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-11-26-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "b6dda80255e047c6a74ccf14ed5ccb1b",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-11-27-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4c3564a845954131ab69ec80db9bf475",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-11-29-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "05b56244ecd94747b1cfcf8aa5eaaa50",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-11-29-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "8d3c17604fb44422930465980b70b17e",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR- 11-30-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "8c1cf9c7141c49e88a4180e352e1c2e4",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-1-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "6eaf9d8da23e4b66890ef9f3d4fcf0e1",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-2-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "601ade793ed24cb18c71c9beb2d067b7",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-3-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "5428c62f22a1481f9db62fc17144eca7",
+    "parent_id": "85ab447ad2424b5abf1bbcbe4c923e82",
+    "title": "COO Reading List",
+    "deleted_time": 0
+  },
+  {
+    "id": "e9445ca83aba49fa8755b151247f4469",
+    "parent_id": "14df4f0ec57f48ba9989d1fb65103b99",
+    "title": "Capture to redmine",
+    "deleted_time": 0
+  },
+  {
+    "id": "1a1fb01c5feb4161986c05bf32922eea",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-4-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4ccf7f9a996a425d88d0a67227c569c6",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-05-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "3f4f5bbb42854f66a96e2b9db17d26b5",
+    "parent_id": "85ab447ad2424b5abf1bbcbe4c923e82",
+    "title": "CTO Reading List",
+    "deleted_time": 0
+  },
+  {
+    "id": "726d09e80de04442b2d0f5fea637c988",
+    "parent_id": "c5dc1bf4195a4ce49c062a7e55593f45",
+    "title": "Crowd matching for content creators?",
+    "deleted_time": 0
+  },
+  {
+    "id": "f494f8b096534c09a2bf075400e26d0d",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-06-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4b1113e3af514eb2bc2f1cd545a84910",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-07-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "6d53c498f9c44ac79893442aa15f7879",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-09-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "a4df1074aa5b4ba9a88a05460d18945d",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-08-2024 ",
+    "deleted_time": 0
+  },
+  {
+    "id": "0a8db91fdf7749fcaee5100a8a8c342a",
+    "parent_id": "90269ab41be64be0b47fdd540f22f400",
+    "title": "FIRE 41 v2",
+    "deleted_time": 0
+  },
+  {
+    "id": "5f2343e9210e4e9883fe59b41adaae49",
+    "parent_id": "90269ab41be64be0b47fdd540f22f400",
+    "title": "OPLAN-overview",
+    "deleted_time": 0
+  },
+  {
+    "id": "8ff9c163896646aab97941361005a591",
+    "parent_id": "90269ab41be64be0b47fdd540f22f400",
+    "title": "2025-ReachableCEO-Plan",
+    "deleted_time": 0
+  },
+  {
+    "id": "528169e6ef104842be163c24d5c640cc",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-10-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "3268d7b924ae4843936e9a65eb182852",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-11-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "7f939598ef22473588bf8609654d8902",
+    "parent_id": "708114203f0c496d884608afa2d9ddbf",
+    "title": "Assets for the website",
+    "deleted_time": 0
+  },
+  {
+    "id": "1a76bff6096d4d3b9d8e9c22ec396cb4",
+    "parent_id": "f22c3fb4afa041b99e6e970317bc52c2",
+    "title": "Applications List",
+    "deleted_time": 0
+  },
+  {
+    "id": "9993d21041f543fdbf947e5d2f3988c4",
+    "parent_id": "5d7e4218b48d4e7ba38bd8bcd4f4f6b8",
+    "title": "NextDSR-",
+    "deleted_time": 0
+  },
+  {
+    "id": "40366405f91c44afbb367db1cd8c9015",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-14-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4964535fa47147ffa8728edac55485b3",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-13-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "8efe43077a8e4bebbc72ba46b034adb8",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-12-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "da5877fef5f24cdbb6a7e64ec47e1de6",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-15-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "4bf9e080b2d546ba91281fed73459d59",
+    "parent_id": "674389de07f645c6a825d69077e206f6",
+    "title": "DSR-12-16-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "9b9a616c732a46d39adcca067889793f",
+    "parent_id": "a291e4667b8f4d45b62edae0573bf392",
+    "title": "DSR-12-17-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "aae79e2766f440339445aa2c870f7ee1",
+    "parent_id": "a291e4667b8f4d45b62edae0573bf392",
+    "title": "DSR-12-18-2024",
+    "deleted_time": 0
+  },
+  {
+    "id": "d72c30b9ac4844baa8bd5d8312629fca",
+    "parent_id": "5d7e4218b48d4e7ba38bd8bcd4f4f6b8",
+    "title": "DSR-Template",
+    "deleted_time": 0
+  }
+]
+[DEBUG] Available note titles:
+Milestones 
+PFV Hypervisor host requirement 
+99-usb-serial.rules
+nitrokey-reset
+RackRental Todo List
+Auto Provisoning
+Network simulation
+Power
+network-plan
+network-plan
+Pitch to talent - pre fundraise
+RWSCP Fund Names and descriptions
+Business Sales And Leadership Resources
+UPS Config
+TSYS Shop Safety Manual
+HowTSYSOrganizesResearch
+StartingLineProductions Inventory
+ShopManualDraft2
+Power
+Network simulation
+Auto Provisoning
+StarlinkTalkingPoints
+Input files
+RTR Intro
+Output files
+Food As Function
+Personality
+Routine General Capture
+Sling bag
+From the desk of the @ReachableCEO: Daily time allocation
+From the desk of the @ReachableCEO Weekly and monthly routine
+From the desk of the @ReachableCEO Daily Routine
+From the desk of the @ReachableCEO Routine is key
+Fitness
+Current Resume
+Legacy Resumes
+Subopi hardware docs
+ShopManualDaft
+StartingLineProductions Inventory
+Bizops Todo
+2-BusinessSalesAndLeadership
+BusinessSalesAndLeadership
+Business Sales And Leadership Resources
+TSYS Shop Manual
+HowTSYSOrganizesResearch
+RandTTodo
+FundNames
+CorePitchOutline-PreFunding
+RWSCP Fund Names and descriptions
+Pitch to talent - pre fundraise
+Ancient Legacy Resumes
+2-Brand List
+2-Brand Skeleton
+Brand Skeleton
+Brand List
+TSYS Technical Operations Todo
+BizAppsList
+FundNames
+From the desk of the CTO - Daily Driver (workstation) (ultix-actual)
+From the desk of the CTO - Daily driver client (laptop) (ultix-control)
+Pitch for core team members pre funding
+Docker Setup
+Application Tracking
+Cloud - Terraform
+From the desk of the CTO - Daily Driver client (ipad/iphone) (ultix-sidekick/mini)
+TSYS Applications List - EE Lab
+TSYS Applications List - Garage Lab
+TSYS Applications List - Web
+Notes on Parasail
+TSYS Shop Manual
+Organizational Update
+Misc
+socalwifi.net network deployment model
+Discourse move 
+Cisco
+Albatross
+information on Network Simulation Vendors
+Lab Safety
+business Sales and leadership
+Charles Scratch notes
+Daily Stakeholder Report - 10-31-2024
+Daily Stakeholder Report -  11-10-2024
+Daily Stakeholder Report -  10-30-2024
+Daily Stakeholder Report -  11-19-2024
+Daily Stakeholder Report -  11-15-2024
+Daily Stakeholder Report -  11-12-2024
+Daily Stakeholder Report -  11-21-2024
+Daily Stakeholder Report -  11-25-2024
+Daily Stakeholder Report -  11-16-2024
+Daily Stakeholder Report -  11-3-2024
+Daily Stakeholder Report -  11-2-2024
+Daily Stakeholder Report -  11-24-2024
+Daily Stakeholder Report -  11-11-2024
+Daily Stakeholder Report -  11-1-2024
+Daily Stakeholder Report -  11-13-2024
+Daily Stakeholder Report - 11-8-2024
+Daily Stakeholder Report -  11-9-2024
+Daily Stakeholder Report -  11-4-2024
+Daily Stakeholder Report -  11-20-2024
+Daily Stakeholder Report -  11-17-2024
+Daily Stakeholder Report -  11-5-2024
+Daily Stakeholder Report -  11-6-2024
+Daily Stakeholder Report -  11-23-2024
+Daily Stakeholder Report -  11-14-2024
+Daily Stakeholder Report -  11-7-2024
+Daily Stakeholder Report -  11-22-2024
+Daily Stakeholder Report -  11-18-2024
+Daily Stakeholder Report -  10/25/2024
+Daily Stakeholder Report -  10-27-2024
+Daily Stakeholder Report -  10-29-2024
+Daily Stakeholder Report -  10-28-2024
+Daily Stakeholder Report -  10-23-2024
+Daily Stakeholder Report - 10-22-2024
+Daily Stakeholder Report -  10-24-2024
+Daily Stakeholder Report  - 10-21-2024
+Resume reviewers
+DSR-11-28-2024
+DSR-11-26-2024
+DSR-11-27-2024
+DSR-11-29-2024
+DSR-11-29-2024
+DSR- 11-30-2024
+DSR-12-1-2024
+DSR-12-2-2024
+DSR-12-3-2024
+COO Reading List
+Capture to redmine
+DSR-12-4-2024
+DSR-12-05-2024
+CTO Reading List
+Crowd matching for content creators?
+DSR-12-06-2024
+DSR-12-07-2024
+DSR-12-09-2024
+DSR-12-08-2024 
+FIRE 41 v2
+OPLAN-overview
+2025-ReachableCEO-Plan
+DSR-12-10-2024
+DSR-12-11-2024
+Assets for the website
+Applications List
+NextDSR-
+DSR-12-14-2024
+DSR-12-13-2024
+DSR-12-12-2024
+DSR-12-15-2024
+DSR-12-16-2024
+DSR-12-17-2024
+DSR-12-18-2024
+DSR-Template
+[DEBUG] Matched note JSON: {"id":"d72c30b9ac4844baa8bd5d8312629fca","parent_id":"5d7e4218b48d4e7ba38bd8bcd4f4f6b8","title":"DSR-Template","deleted_time":0}
+[INFO] Successfully fetched the original note. Extracting note ID.
+jq: parse error: Invalid numeric literal at line 1, column 6
+Error: Failed to extract note ID from the original note.
