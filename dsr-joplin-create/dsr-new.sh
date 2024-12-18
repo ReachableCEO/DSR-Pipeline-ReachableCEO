@@ -173,6 +173,8 @@ function get_note_by_title()
 
 # Function to create a new note
 
+
+
 function create_new_note()
 
 {
@@ -191,6 +193,7 @@ function create_new_note()
     if [[ $? -ne 0 ]]; then
 
         echo "Error: Failed to create the note titled $title." >&2
+        echo "[DEBUG] Body content passed to the API: $body" >&2
         exit 1
 
     fi
