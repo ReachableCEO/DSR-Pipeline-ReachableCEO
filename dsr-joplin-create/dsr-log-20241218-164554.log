@@ -5,6 +5,10 @@
 [INFO] Starting the note cloning process.
 [INFO] Current date retrieved: 2024-12-18.
 [INFO] Fetching original note by title: DSR-Template.
+[INFO] Fetching note by title: DSR-Template.
+[DEBUG] Fetching page: 1
+[DEBUG] Fetching page: 2
+[DEBUG] Fetching page: 3
 [DEBUG] Consolidated note JSON: [
   {
     "id": "8cb08d22fd9f433dbaaa15f75a79bd22",
@@ -1066,6 +1070,56 @@ DSR-12-17-2024
 DSR-12-18-2024
 DSR-Template
 [DEBUG] Matched note JSON: {"id":"d72c30b9ac4844baa8bd5d8312629fca","parent_id":"5d7e4218b48d4e7ba38bd8bcd4f4f6b8","title":"DSR-Template","deleted_time":0}
-[INFO] Successfully fetched the original note. Extracting note ID.
-jq: parse error: Invalid numeric literal at line 1, column 6
-Error: Failed to extract note ID from the original note.
+[DEBUG] Raw original note JSON: {"id":"d72c30b9ac4844baa8bd5d8312629fca","parent_id":"5d7e4218b48d4e7ba38bd8bcd4f4f6b8","title":"DSR-Template","deleted_time":0}
+[INFO] Fetching full details of the note with ID: d72c30b9ac4844baa8bd5d8312629fca.
+[DEBUG] Full note JSON: {"id":"d72c30b9ac4844baa8bd5d8312629fca","parent_id":"5d7e4218b48d4e7ba38bd8bcd4f4f6b8","title":"DSR-Template","deleted_time":0,"type_":1}
+[INFO] Extracted body: [No content]
+[INFO] Fetching notebook ID for path: Today.
+[INFO] Fetching notebook ID for path: Today.
+[DEBUG] Available folders:
+HFNOC-v1
+Docs RR
+Legacy Resumes
+VP Technical Operations
+VP Treasury Operations
+Systems Setup
+VP Marketing
+VPFundraising
+VpSales
+RackRental
+2-HFNOC-v1
+Resume
+ReachableCEO.com
+@ReachableCEO
+@TSYSPublic
+Chief Commons Officer
+Chief Operations Officer
+Chief Technology Officer
+Board
+@Skillup
+@Clips
+Conflicts (attachments)
+Employment
+Founder
+MBA
+ImportMove
+KB
+@DailyStakeholderReports
+Today
+PostedToDiscourse
+Template
+StrategicPlans
+Reading List
+Redmine Inbox
+Web Posts
+Published To Ghost
+newsletter.reachableceo.com
+From The Desk of the @ReachableCEO
+From The Desk of the CTO
+EDC
+[INFO] Notebook ID for path Today: a291e4667b8f4d45b62edae0573bf392.
+[INFO] Notebook ID retrieved: a291e4667b8f4d45b62edae0573bf392. Creating the new note.
+[INFO] Creating a new note with title: DSR-2024-12-18.
+{"title":"DSR-2024-12-18","body":"[No content]","parent_id":"a291e4667b8f4d45b62edae0573bf392","markup_language":1,"updated_time":1734561956441,"created_time":1734561956441,"user_updated_time":1734561956441,"user_created_time":1734561956441,"source":"joplin-desktop","source_application":"net.cozic.joplin-desktop","order":1734561956442,"deleted_time":0,"id":"09b3f43ce3214cf78f60fa656620ea5d","type_":1}[INFO] Note titled DSR-2024-12-18 created successfully.
+[INFO] Successfully cloned note to DSR-2024-12-18 in notebook Today.
+[INFO] Script execution completed successfully.
