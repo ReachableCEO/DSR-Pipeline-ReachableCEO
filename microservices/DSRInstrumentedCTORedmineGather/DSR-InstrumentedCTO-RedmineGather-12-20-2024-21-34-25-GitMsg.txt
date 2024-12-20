@@ -1,0 +1,5 @@
+Added DSR-InstrumentedCTO-RedmineGather script and test suite.
+
+- Script gathers data from Redmine API and processes it.
+- Includes robust error handling and detailed logging.
+- Test suite verifies data gathering functionality.
